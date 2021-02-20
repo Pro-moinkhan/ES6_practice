@@ -14,8 +14,8 @@ console.log(result0);
 
 // NOTE arrow function without parameter ES6:
 const get5 = () => 5;   //NOTE () this is a empty parameter.
-const result1 = get5();
-console.log(result1);
+// const result1 = get5();
+console.log(get5());
 
 // 4. NOTE arrow function with single parameter ES6:
 const DoubleIT = num => num * 2; // NOTE DoubleIT is the name of function, first num is the parameter of function & second num is return of function.
